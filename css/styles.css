@@ -1,0 +1,78 @@
+/* General styles */
+body {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  line-height: 1.6;
+}
+
+/* Center all content */
+.centered-content {
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Ensure section titles (h2) are centered */
+.section-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Ensure content inside sections is left-aligned */
+.section-content {
+  text-align: left;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Profile photo */
+.profile-photo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Summary text left-aligned */
+.summary-text {
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* Lists should be properly formatted */
+.section-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.section-content li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+/* Contact icons aligned properly */
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Contact icons fixed size */
+.contact-email-icon {
+  width: 45px;
+  height: auto;
+}
+
+.contact-linkedin-icon {
+  width: 35px;
+  height: auto;
+}
+
+/* Footer styling */
+.footer-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
